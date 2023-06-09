@@ -28,7 +28,7 @@ public class PercentComplete {
         for (int i = 0; i < rounded; i++) {
             System.out.print('#');
         }
-        for (int j = 0; j < 98 - rounded; j++) {
+        for (int j = 0; j < 100 - rounded; j++) {
             System.out.print('_');
         }
         System.out.print('|');
